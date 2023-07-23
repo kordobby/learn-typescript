@@ -1,0 +1,11 @@
+// typescript Docs tsconfig
+// https://www.typescriptlang.org/tsconfig
+
+{
+  // 타입스크립트가 이 프로젝트를 어떻게 이해하게할 것인가
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true, // @ts-check
+    "noImplicitAny": true
+  }
+}
